@@ -1,0 +1,29 @@
+cxx_binary(
+  name = 'queue',
+  srcs = [
+    'queue.cpp',
+  ],
+  deps = [
+    '//:lockfree',
+  ],
+)
+
+cxx_binary(
+  name = 'spsc-queue',
+  srcs = [
+    'spsc_queue.cpp',
+  ],
+  deps = [
+    '//:lockfree',
+  ],
+)
+
+cxx_binary(
+  name = 'stack',
+  srcs = [
+    'stack.cpp',
+  ],
+  deps = [
+    '//:lockfree',
+  ],
+)

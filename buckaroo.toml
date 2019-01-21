@@ -1,0 +1,9 @@
+targets = [ "//:lockfree" ]
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-parameter"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-thread"
+version = "branch=master"
